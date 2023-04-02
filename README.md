@@ -1,4 +1,4 @@
-# README
+# Rails ToDo list with soft deletion.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
