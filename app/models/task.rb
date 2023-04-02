@@ -7,4 +7,6 @@ class Task < ApplicationRecord
     }
 
     default_scope { where("deleted_at is NULL")}
+
+    scope :deleted, -> { where("deleted_at IS NOT NULL")}
 end
